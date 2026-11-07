@@ -1,4 +1,4 @@
-# Micro-Task and Earning Platform
+# coincrafter
 
 A responsive, role-based micro-tasking and earning platform that connects task creators (Buyers) with task performers (Workers). Users can create tasks, complete assignments, earn virtual coins, purchase additional coins, and manage their activities through dedicated dashboards.
 
