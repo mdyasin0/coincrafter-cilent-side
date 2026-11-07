@@ -2,7 +2,7 @@
 
 A responsive, role-based micro-tasking and earning platform that connects task creators (Buyers) with task performers (Workers). Users can create tasks, complete assignments, earn virtual coins, purchase additional coins, and manage their activities through dedicated dashboards.
 
-**Live Website:** [https://coin-crafter-c3107.web.app/](https://coin-crafter-c3107.web.app/)
+**Live Website:** https://coincraft-a9594.web.app
 
 **Project Type:** Full-Stack MERN Application  
 **Repository:** Client-side (Frontend)
@@ -112,7 +112,7 @@ The application includes a coin-based reward and payment interface.
 - Stripe Test Mode payment flow.
 - Multiple coin purchasing packages.
 - Payment-related user interface and transaction history.
-- Payment feedback and notification interfaces.
+
 
 ### 8. Image Upload Integration
 
@@ -191,7 +191,7 @@ Follow these steps to run the frontend application locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_CLIENT_REPOSITORY_URL
+git clone https://github.com/mdyasin0/coincrafter-cilent-side.git
 ```
 
 ### 2. Navigate to the Project Directory
@@ -210,7 +210,22 @@ npm install
 
 Create a `.env` file in the project root directory and configure the frontend environment variables required by the application.
 
-Use the variable names referenced in the project's source code.
+#  firebase key
+
+ VITE_apiKey =
+ VITE_authDomain=
+ VITE_projectId=
+ VITE_storageBucket=
+ VITE_messagingSenderId=
+ VITE_appId=
+
+# imgbb key
+
+VITE_IMGBB_API_KEY=
+
+# stripe
+
+VITE_stripe=
 
 **Security Note:** Frontend environment variables used by Vite are exposed in the browser bundle. Never store Stripe secret keys, MongoDB credentials, Firebase service-account private keys, or other server-side secrets in the client-side environment.
 
