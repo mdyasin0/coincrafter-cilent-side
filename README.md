@@ -191,7 +191,7 @@ Follow these steps to run the frontend application locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/mdyasin0/coincrafter-cilent-side.git
+git clone https://github.com/mdyasin0/coincrafter-client-side.git
 ```
 
 ### 2. Navigate to the Project Directory
